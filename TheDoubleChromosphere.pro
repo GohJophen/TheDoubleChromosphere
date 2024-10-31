@@ -11,11 +11,11 @@ QT  += core
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
+INCLUDEPATH += include
+
 HEADERS += \
     include\widget.h \
     include\shuffleArray.h
-
-INCLUDEPATH += /usr/include
 
 RESOURCES += \
     resources\resources.qrc
